@@ -1,0 +1,11 @@
+,name,rating,latitude,longitude
+0,Paul's Pizza Shop,3.8,30.02096,-95.52322
+1,Whole Foods Market,4.5,30.2704305556,-97.75386111110001
+2,Polvo's Mexican Restaurant,4.2,30.2452,-97.75751
+3,Torchy's Tacos,4.4,30.2937099822,-97.7417280526
+4,Fogo de Chão Brazilian Steakhouse,4.3,30.2641638492,-97.7406714816
+5,Banger's Sausage House & Beer Garden,4.5,30.259219,-97.7382949
+6,La Condesa,4.1,30.2656391,-97.7477811
+7,North By Northwest Restaurant & Brewery - Stonelake,4.3,30.39082,-97.73889
+8,24 Diner,4.2,30.2720805556,-97.75401388889999
+9,Blue Dahlia Bistro,4.4,30.268975,-97.72871388889999
