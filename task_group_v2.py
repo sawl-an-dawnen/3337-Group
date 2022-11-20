@@ -15,5 +15,5 @@ windows = generate_windows(my_files_list, windowSize) #all window dataframes
 
 windows_d1, windows_d2 = generate_windows_filtered(windows,w_depth,w_mag)
 
-plotly_heatmap(windows_d1[0])
+plotly_heatmap(windows_d1[0], w_depth, w_mag)
 
