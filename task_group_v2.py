@@ -1,5 +1,5 @@
 from folderScanner import list_files
-from generate_map import plotly_heatmap
+from generate_map_v2 import plotly_heatmap
 from windows_functions import generate_windows, generate_windows_filtered
 
 #pointCount = 50000 #plot dpi
@@ -15,5 +15,5 @@ windows = generate_windows(my_files_list, windowSize) #all window dataframes
 
 windows_d1, windows_d2 = generate_windows_filtered(windows,w_depth,w_mag)
 
-plotly_heatmap(windows_d1[0], w_depth, w_mag)
-
+plotly_heatmap(windows_d1, w_depth, w_mag)
+#plotly_heatmap(windows_d2, w_depth, w_mag)

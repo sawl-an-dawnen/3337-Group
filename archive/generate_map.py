@@ -1,4 +1,5 @@
 import plotly.graph_objects as go
+from server_plot import server_plot
 
 def plotly_heatmap(window, w_depth, w_mag):
     df1 = window
@@ -10,16 +11,5 @@ def plotly_heatmap(window, w_depth, w_mag):
     fig.update_layout(mapbox_style="stamen-terrain", mapbox_center_lon=180)
     fig.update_layout(margin={"r":0, "t":0, "l":0, "b":0})
     
-    fig.show()
-    
-    import dash
-    import dash_core_components as dcc
-    import dash_html_components as html
-    
-    app = dash.Dash()
-    app.layout = html.Div([
-        dcc.Graph(figure=fig)
-    ])
-    
-    app.run_server(debug=True, use_reloader=False)
+    server_plot(fig)
 
