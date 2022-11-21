@@ -35,7 +35,7 @@ def plotly_heatmap(windows, w_depth, w_mag):
     
     sliders = [dict(
         active=10,
-        currentvalue={"prefix": "Frequency: "},
+        currentvalue={"prefix": "Window: "},
         pad={"t": 50},
         steps=steps
     )]
